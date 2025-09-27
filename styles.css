@@ -1,0 +1,16 @@
+/* Simple small tweaks, main styling powered by Tailwind CDN */
+html, body, #app {
+  height: 100%;
+}
+
+/* Canvas uses nearest-neighbor for crisp blocks */
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  display: block;
+}
+
+/* Optional: monospace look for score */
+#score, #level, #lines {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+}
